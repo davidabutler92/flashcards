@@ -1,7 +1,10 @@
 $(document).ready(function() {
-  $(".js").click(function(event) {
-    event.preventDefault();
+  $(".js").click(function() {
     $("#javascript").fadeToggle();    
   });
-
+  
+  $(".op").click(function() {
+    $("#operators").fadeToggle();
+  });
+  
 });
